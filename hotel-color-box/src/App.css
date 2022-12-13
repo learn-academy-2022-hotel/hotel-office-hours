@@ -1,0 +1,36 @@
+/* universal styling */
+body {
+  background-color: rgb(107, 178, 241);
+}
+
+/* box */
+.box {
+  border: 10px solid black;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* header */
+h1 {
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* button */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #71357d;
+  color: white;
+  font-family: "Sofia", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+}
