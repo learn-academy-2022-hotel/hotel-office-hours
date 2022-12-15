@@ -55,7 +55,7 @@
   Note: cd back into project level
   - $ cd <folder/repo name>
 
-As a user, I can click on the box to roll the dice and see the result of my roll in the box.
+## As a user, I can click on the box to roll the dice and see the result of my roll in the box.
 - store data on App.js and pass props to Dice.js
 - react state for diceRoll, initial value will be string that states the box is the dice
 - function for rolling the dice
