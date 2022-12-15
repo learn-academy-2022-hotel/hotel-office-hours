@@ -1,0 +1,40 @@
+.rectangle-container {
+  height: 75vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  grid-template-columns: auto auto;
+  background-color: #bb9dc9;
+  padding: 5px;
+}
+
+.rectangle-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 65vh;
+  width: 40vw;
+  font-size: 3vh;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.roll {
+  border: 5px solid black;
+  height: 10vh;
+  width: 10vw;
+  margin: 0 auto;
+  font-size: 8vh;
+}
+
+.log {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  font-size: 3vh;
+}
