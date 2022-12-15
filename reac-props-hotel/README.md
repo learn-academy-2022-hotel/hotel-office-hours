@@ -14,14 +14,12 @@
 - When creating a project it is important to think about organization of your code. It is best practice to separate and compartmentalize all the actions in your code. The dice UI will be in its own component as will the roll log UI. App.js controls of all the data in state, renders the other components, and passes data to the dice and roll component.
 
 📚 User Stories
+
 ## As a user, I can see a square box on the screen with a black border and a white background. 
 
-  ### Create an outline for App.js based on image on challenge
+  ### Create an outline for App.js based on image on challenge 
     - template of functional component
-
-    https://github.com/learn-academy-2022-hotel/Syllabus/blob/main/react/create-react-app.md 
-
-    ```javascript
+  ```javascript  
       import React from "react"
 
       const App = () => {
@@ -33,7 +31,7 @@
       }
 
       export default App
-    ```
+  ```
     - App.js
       - Dice Roller
       - rectangular box with two rectangular boxes beside each other
