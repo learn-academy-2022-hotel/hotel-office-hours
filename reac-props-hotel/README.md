@@ -16,9 +16,9 @@
 📚 User Stories
 
 ## As a user, I can see a square box on the screen with a black border and a white background. 
-
   ### Create an outline for App.js based on image on challenge 
     - template of functional component
+  https://github.com/learn-academy-2022-hotel/Syllabus/blob/main/react/create-react-app.md
   ```javascript  
       import React from "react"
 
@@ -91,5 +91,10 @@
 
 🏔 Stretch Goals
 As a user, I can see the image of a dice face when I roll the dice.
+https://github.com/learn-academy-2022-hotel/Syllabus/blob/main/react/state-with-images.md
+- save images in the syllabus into an src/assets folder
+- import onto App.js
+- modify the dice array to store the images
+
 As a user, I can click a restart button that clears my roll log.
 🗂 Assets - download and save in assets folder on application
