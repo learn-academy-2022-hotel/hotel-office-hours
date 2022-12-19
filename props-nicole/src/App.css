@@ -1,0 +1,55 @@
+/* Importing a font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+* {
+  margin: auto;
+  text-align: center;
+  /* applying it to whole page */
+  font-family: 'Rubik Vinyl', cursive;
+  font-weight: bold;
+  color: purple;
+}
+h1 {
+  margin-top: 20px;
+  font-size: 50px;
+}
+h2 {
+  border-bottom: 2px solid grey;
+}
+.dice-face {
+  width: 250px;
+  height: 250px;
+}
+.dice-n-tracker {
+  height: 70vh;
+  width: 85vw;
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  grid-template-columns: auto auto;
+  background-color: green;
+  padding: 5px;
+}
+.dice-roll {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  height: 68vh;
+  width: 41vw;
+  font-size: 3vh;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+.bttn1 {
+  height: 40px;
+  width: 150px;
+}
+.bttn2 {
+  height: auto;
+  width: auto;
+  font-size: large;
+}
